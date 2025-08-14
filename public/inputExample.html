@@ -2,5 +2,17 @@
 <html>
 <body>
     <h2>Sample use of the Input Tag</h2>
+    <label>
+        <input id="greeting" />
+    </label>
+    <button onclick="checkGreet()"> Show Greeting</button></body></p>
+    <p>Result: <span id="greet"> </span> </p>
+    <script>
+        function checkGreet()
+        {
+            let dGreet = document.getElementById("greeting").value;
+            document.getElementById("greet").innerHTML = `<b> dGreet </b>`;
+        }
+    </script>
 </body>
 </html>
