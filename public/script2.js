@@ -8,5 +8,5 @@ function result()
 
     let totalRequired = (Number(NumPerday) * 365) * (Number(maxAge) - Number(age));
 
-    document.getElementById("resultHere").innerHTML = `<b> You will need ${totalRequired} packs of chips to last you until the ripe old age of ${maxAge}.</b>`;
+    document.getElementById("resultHere").innerHTML = `<b> You will need ${totalRequired} to last you until the ripe old age of ${maxAge}.</b>`;
 }
