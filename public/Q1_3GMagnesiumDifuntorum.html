@@ -18,14 +18,33 @@
         <span id="result"></span>
     </p>
 
+
+    <p>Credits: Joanna Elisha Z. Escobar of 9 - Magnesium</p>
+
     <script>
 
        var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
 
         function checkIt() 
         {
-              
+              let guess = Number(document.getElementById("Guess").value);
+
+              if (guess > dNumber) 
+                {
+                    let x = "Lower";
+                    document.getElementById("result").innerHTML = `<b> ${x} </b>`
+                } 
+              else if (guess < dNumber)
+                {
+                    let y = "Higher";
+                    document.getElementById("result").innerHTML = `<b> ${y} </b>`
+                }
             
+              else if (guess == dNumber)
+                {
+                    let z = "This is the Number!";
+                    document.getElementById("result").innerHTML = `<b> ${z} </b>`
+                }
          
         }
     </script>
