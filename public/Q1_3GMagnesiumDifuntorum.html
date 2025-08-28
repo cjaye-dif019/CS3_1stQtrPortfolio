@@ -28,24 +28,30 @@
         function checkIt() 
         {
               let guess = Number(document.getElementById("Guess").value);
-
-              if (guess > dNumber) 
-                {
-                    let x = "Lower";
-                    document.getElementById("result").innerHTML = `<b> ${x} </b>`
-                } 
-              else if (guess < dNumber)
-                {
-                    let y = "Higher";
-                    document.getElementById("result").innerHTML = `<b> ${y} </b>`
-                }
+              if (guess >= 1 && guess <= 100)
+                 {
+                    if (guess > dNumber) 
+                    {
+                        let x = "Lower";
+                         document.getElementById("result").innerHTML = `<b> ${x} </b>`
+                    } 
+                else if (guess < dNumber)
+                    {
+                        let y = "Higher";
+                        document.getElementById("result").innerHTML = `<b> ${y} </b>`
+                    }
             
-              else if (guess == dNumber)
+                else if (guess == dNumber)
+                     {
+                        let z = "This is the Number!";
+                        document.getElementById("result").innerHTML = `<b> ${z} </b>`
+                     } 
+                    }
+            else
                 {
-                    let z = "This is the Number!";
-                    document.getElementById("result").innerHTML = `<b> ${z} </b>`
+                    let w = "Number must be from 1 - 100!";
+                    document.getElementById("result").innerHTML = `<b> ${w} </b>`
                 }
-         
         }
     </script>
 
