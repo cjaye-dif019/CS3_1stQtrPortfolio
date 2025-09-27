@@ -29,6 +29,6 @@
 ### Effective
 * Graded & Non-Graded Coding Tasks: This helped me a lot in the first Quarter because these served as my practices for the ucoming exams this Quarter. Aside from this, it also tested my skills//learnings from the discussion by applying what I learned by coding.
 * Speed Test: The speed test tested how fast I am in coding or getting the right result from  what is asked in the problem given. It also tested my eagerness to get the bonus point and to practice coding at home so that I can earn the bonus when the day of the speed test arrived.
-### Not Efefctive
+### Not Effective
 * Kahoot Game!: For me it really helped me since it made me more productive in class. Although it's fun when there's an activity like this, I feel like this activity isn't more of a review but more of a refresher of what was discussed in the previous meeting.
 
